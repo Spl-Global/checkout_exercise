@@ -1,7 +1,7 @@
 require_relative 'basket'
 
 class Checkout
-  def initialize(rules = nil, products: nil)
+  def initialize(rules = [], products: nil)
     @rules = rules
     @products = products
     @cart = Hash.new(0)

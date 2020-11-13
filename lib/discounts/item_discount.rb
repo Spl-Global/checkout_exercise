@@ -5,7 +5,7 @@ class ItemDiscount
     @total = total
   end
 
-  def apply(_current_total, cart, prices)
+  def apply(_, cart, prices)
     @prices = prices
     @cart = cart
     discount_applicable? ? apply_discount : 0
