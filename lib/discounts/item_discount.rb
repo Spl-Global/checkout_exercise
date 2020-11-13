@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 class ItemDiscount
   def initialize(code:, quantity:, total:)
     @code = code
